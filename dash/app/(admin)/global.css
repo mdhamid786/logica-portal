@@ -1,0 +1,30 @@
+.guZdik {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-width: 200px !important;
+    max-width: 508px;
+    height: 48px;
+    border: dashed 2px #0658c2;
+    padding: 8px 16px 8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.opt-container {
+    justify-content: center;
+}
+.opt-container > input[type="tel"] {
+    border: 1px solid #333;
+    border-radius: 5px;
+}
